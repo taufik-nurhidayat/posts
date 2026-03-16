@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1920, initial-scale=1.0" />
+  <title>Vibe Coding Thumbnail</title>
+  <style>
+    :root{
+      --bg:#070b14;
+      --card:#0f172acc;
+      --line:#334155;
+      --txt:#e2e8f0;
+      --muted:#94a3b8;
+      --a:#22d3ee;
+      --b:#a78bfa;
+      --c:#34d399;
+      --d:#f59e0b;
+      --red:#fb7185;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;width:1920px;height:1080px;overflow:hidden;font-family:Inter,Segoe UI,system-ui,Arial,sans-serif;background:var(--bg);color:var(--txt)}
+    .noise{position:absolute;inset:0;opacity:.18;background-image:radial-gradient(rgba(255,255,255,.25) 0.6px, transparent 0.6px);background-size:3px 3px;mix-blend-mode:soft-light}
+    .bg{position:absolute;inset:0;background:
+      radial-gradient(900px 540px at 86% 14%, rgba(167,139,250,.25), transparent 65%),
+      radial-gradient(760px 500px at 15% 85%, rgba(34,211,238,.22), transparent 62%),
+      radial-gradient(620px 420px at 65% 80%, rgba(52,211,153,.16), transparent 62%),
+      linear-gradient(130deg,#05070e 0%,#0a1020 45%,#060913 100%);
+      }
+    .grid{position:absolute;inset:-120px; background-image:linear-gradient(to right, rgba(148,163,184,.09) 1px, transparent 1px),linear-gradient(to bottom, rgba(148,163,184,.09) 1px, transparent 1px);background-size:56px 56px;transform:perspective(700px) rotateX(55deg) translateY(220px);opacity:.3}
+    .wrap{position:relative;z-index:5;padding:78px 94px;height:100%}
+    .top{display:flex;justify-content:space-between;align-items:center}
+    .chip{padding:10px 16px;border:1px solid #334155;border-radius:999px;background:rgba(15,23,42,.55);font-size:24px;color:#cbd5e1;font-weight:700;letter-spacing:.5px}
+    .brand{font-size:24px;color:#93c5fd;letter-spacing:.6px;font-weight:700}
+    .title{margin-top:34px;max-width:1200px;font-size:92px;line-height:1.02;font-weight:900;letter-spacing:-2px}
+    .grad{background:linear-gradient(90deg,var(--a),var(--b),#f0abfc);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .subtitle{margin-top:26px;max-width:1130px;color:#cbd5e1;font-size:38px;line-height:1.3}
+
+    .panel{position:absolute;right:92px;bottom:92px;width:580px;background:var(--card);backdrop-filter:blur(8px);border:1px solid rgba(148,163,184,.3);border-radius:24px;padding:26px 26px 22px;box-shadow:0 20px 80px rgba(0,0,0,.45)}
+    .panel h3{margin:0 0 14px;font-size:28px;letter-spacing:.4px}
+    .row{display:flex;align-items:center;gap:14px;margin:12px 0;font-size:24px;color:#dbeafe}
+    .dot{width:11px;height:11px;border-radius:50%}
+    .yes{background:var(--c)}
+    .warn{background:var(--d)}
+    .no{background:var(--red)}
+    .footer{position:absolute;left:94px;bottom:82px;display:flex;gap:18px;align-items:center;color:var(--muted);font-size:27px}
+    .pulse{width:14px;height:14px;border-radius:50%;background:var(--a);box-shadow:0 0 0 0 rgba(34,211,238,.7);animation:p 2s infinite}
+    @keyframes p {0%{box-shadow:0 0 0 0 rgba(34,211,238,.7)}70%{box-shadow:0 0 0 14px rgba(34,211,238,0)}100%{box-shadow:0 0 0 0 rgba(34,211,238,0)}}
+  </style>
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="grid"></div>
+  <div class="noise"></div>
+  <div class="wrap">
+    <div class="top">
+      <div class="chip">OPINI • AI CODING ERA</div>
+      <div class="brand">nurhidayat.dev / posts</div>
+    </div>
+
+    <div class="title">Siapa yang Diuntungkan di Era <span class="grad">Vibe Coding</span>?</div>
+    <div class="subtitle">Non-teknis bisa ngebut dari ide ke prototipe.<br/>Programmer adaptif naik kelas, bukan tergantikan.</div>
+
+    <div class="panel">
+      <h3>Peta Pemenang Baru</h3>
+      <div class="row"><span class="dot yes"></span> Non-teknis: prototype + deploy lebih cepat</div>
+      <div class="row"><span class="dot warn"></span> Programmer eksekutor: mulai tertekan</div>
+      <div class="row"><span class="dot yes"></span> Programmer adaptif: leverage AI maksimum</div>
+      <div class="row"><span class="dot no"></span> Skill stagnan: sulit bersaing</div>
+    </div>
+
+    <div class="footer"><span class="pulse"></span> Taufik's perspective · 2026</div>
+  </div>
+</body>
+</html>
