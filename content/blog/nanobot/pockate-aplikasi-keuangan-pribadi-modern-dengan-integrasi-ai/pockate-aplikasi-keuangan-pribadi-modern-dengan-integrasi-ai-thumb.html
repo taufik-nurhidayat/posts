@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1920, initial-scale=1.0" />
+  <style>
+    :root{--bg:#07131f;--a:#22d3ee;--b:#60a5fa;--c:#34d399;--txt:#e6f6ff;--muted:#b8d7e8}
+    *{box-sizing:border-box}
+    html,body{margin:0;width:1920px;height:1080px;overflow:hidden;font-family:Inter,system-ui,Segoe UI,sans-serif;background:#07131f;color:var(--txt)}
+    .bg{position:absolute;inset:0;background:radial-gradient(1000px 500px at 75% 0%,rgba(96,165,250,.22),transparent 60%),radial-gradient(900px 500px at 10% 90%,rgba(52,211,153,.2),transparent 60%),linear-gradient(135deg,#07131f,#0c2434)}
+    .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.06) 1px,transparent 1px);background-size:48px 48px;opacity:.25}
+    .wrap{position:relative;z-index:2;padding:84px 96px;height:100%}
+    .tag{display:inline-block;padding:10px 16px;border:1px solid rgba(184,215,232,.35);border-radius:999px;color:#cfe9f5;font-weight:700;font-size:24px}
+    h1{margin:24px 0 0;max-width:1260px;font-size:88px;line-height:1.05;letter-spacing:-1.8px}
+    .grad{background:linear-gradient(90deg,var(--a),var(--b),var(--c));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .sub{margin-top:26px;max-width:1200px;font-size:37px;line-height:1.35;color:var(--muted)}
+    .panel{position:absolute;right:96px;bottom:92px;width:620px;background:rgba(7,19,31,.7);border:1px solid rgba(184,215,232,.25);border-radius:22px;padding:24px}
+    .panel h3{margin:0 0 10px;font-size:28px}
+    .li{font-size:24px;line-height:1.5;color:#d7edf8;margin:6px 0}
+    .footer{position:absolute;left:96px;bottom:82px;font-size:28px;color:#9cc6db}
+  </style>
+</head>
+<body>
+  <div class="bg"></div><div class="grid"></div>
+  <div class="wrap">
+    <div class="tag">PERSONAL FINANCE • AI AGENT</div>
+    <h1><span class="grad">Pockate</span>: Kelola Keuangan dari Banyak Sumber, Lebih Cerdas</h1>
+    <div class="sub">Track multi-account, expense/income/transfer, budgeting bulanan, rasio cashflow, aset non-uang, dan integrasi OpenClaw.</div>
+    <div class="panel">
+      <h3>Fitur Utama</h3>
+      <div class="li">• Multiple sources tracking</div>
+      <div class="li">• Expense, income, transfer</div>
+      <div class="li">• Monthly budgeting & ratio</div>
+      <div class="li">• Non-cash assets</div>
+      <div class="li">• AI agent integration</div>
+    </div>
+    <div class="footer">pockate.nurhidayat.dev</div>
+  </div>
+</body>
+</html>
