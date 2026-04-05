@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1920, initial-scale=1.0" />
+  <title>Hermes Agent Thumbnail EN</title>
+  <style>
+    :root{
+      --bg:#060816;
+      --bg2:#0d1330;
+      --line:rgba(255,255,255,.07);
+      --cyan:#22d3ee;
+      --blue:#60a5fa;
+      --violet:#a78bfa;
+      --text:#eef4ff;
+      --muted:#c0cde3;
+      --panel:rgba(8,12,30,.68);
+      --panelBorder:rgba(192,205,227,.22);
+    }
+    *{box-sizing:border-box}
+    html,body{
+      margin:0;
+      width:1920px;
+      height:1080px;
+      overflow:hidden;
+      font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+    }
+    .bg{
+      position:absolute;inset:0;
+      background:
+        radial-gradient(1100px 620px at 88% 4%, rgba(167,139,250,.30), transparent 58%),
+        radial-gradient(960px 560px at 6% 100%, rgba(34,211,238,.24), transparent 60%),
+        radial-gradient(560px 360px at 72% 72%, rgba(96,165,250,.16), transparent 62%),
+        linear-gradient(135deg, var(--bg), var(--bg2));
+    }
+    .grid{
+      position:absolute;inset:0;
+      background-image:
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px);
+      background-size:52px 52px;
+      opacity:.24;
+    }
+    .noise{position:absolute;inset:0;opacity:.08;background:radial-gradient(circle at 20% 20%, #fff 0 1px, transparent 1px) 0 0/22px 22px}
+    .bottomGlow{position:absolute;left:-10%;right:-10%;bottom:-90px;height:320px;background:radial-gradient(60% 100% at 50% 0%, rgba(96,165,250,.26), rgba(34,211,238,.12) 34%, transparent 68%);filter:blur(8px)}
+    .bottomStrip{position:absolute;left:0;right:0;bottom:0;height:118px;background:linear-gradient(180deg, rgba(8,12,30,0) 0%, rgba(8,12,30,.18) 18%, rgba(8,12,30,.5) 100%)}
+    .wrap{position:relative;z-index:2;height:100%;padding:84px 96px}
+    .leftCol{display:flex;flex-direction:column;align-items:flex-start;gap:20px;max-width:1280px}
+    .tag{
+      display:inline-flex;align-items:center;gap:14px;
+      padding:12px 18px;border-radius:999px;
+      border:1px solid rgba(192,205,227,.28);
+      color:#dbe7fb;font-size:23px;font-weight:700;letter-spacing:.02em;
+      background:rgba(255,255,255,.03);
+      backdrop-filter: blur(10px);
+    }
+    .dot{width:12px;height:12px;border-radius:999px;background:linear-gradient(135deg,var(--cyan),var(--violet));box-shadow:0 0 18px rgba(96,165,250,.8)}
+    h1{
+      margin:0;
+      max-width:1240px;
+      font-size:76px;
+      line-height:1.04;
+      letter-spacing:-2px;
+      font-weight:800;
+    }
+    .grad{
+      background:linear-gradient(90deg,var(--cyan),var(--blue),var(--violet));
+      -webkit-background-clip:text;background-clip:text;color:transparent;
+    }
+    .sub{
+      margin-top:0;
+      max-width:1120px;
+      font-size:33px;
+      line-height:1.35;
+      color:var(--muted);
+    }
+    .panel{
+      position:absolute;right:96px;bottom:18px;width:630px;
+      background:var(--panel);border:1px solid var(--panelBorder);
+      border-radius:26px;padding:26px 28px;backdrop-filter: blur(14px);
+      box-shadow:0 24px 80px rgba(0,0,0,.28);
+    }
+    .panel h3{margin:0 0 12px;font-size:29px;letter-spacing:-.3px}
+    .li{font-size:24px;line-height:1.55;color:#dfe9fb;margin:7px 0}
+    .footer{position:absolute;left:96px;bottom:14px;font-size:28px;color:#a6bbdb}
+    .badgeRow{display:flex;gap:16px;flex-wrap:wrap;max-width:980px;position:static}
+    .badge{padding:10px 14px;border-radius:14px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);font-size:22px;color:#d5e3fa}
+    .ring{
+      position:absolute;right:172px;top:132px;width:360px;height:360px;border-radius:999px;
+      border:1px solid rgba(167,139,250,.28);
+      box-shadow:inset 0 0 80px rgba(96,165,250,.08), 0 0 120px rgba(96,165,250,.12);
+    }
+    .ring:before,.ring:after{
+      content:"";position:absolute;border-radius:999px;inset:38px;border:1px solid rgba(34,211,238,.24)
+    }
+    .ring:after{inset:88px;border-color:rgba(255,255,255,.12)}
+    .core{
+      position:absolute;inset:126px;border-radius:999px;
+      background:radial-gradient(circle at 35% 35%, rgba(255,255,255,.9), rgba(96,165,250,.9) 18%, rgba(34,211,238,.55) 42%, rgba(167,139,250,.16) 72%, transparent 73%);
+      filter:blur(.2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="grid"></div>
+  <div class="noise"></div>
+  <div class="bottomGlow"></div>
+  <div class="bottomStrip"></div>
+  <div class="ring"><div class="core"></div></div>
+  <div class="wrap">
+    <div class="leftCol">
+      <div class="tag"><span class="dot"></span>HERMES AGENT • AI WORKFLOW • AUTOMATION</div>
+      <h1><span class="grad">Hermes Agent</span>: A New Step After OpenClaw Toward a More Flexible AI Workflow</h1>
+      <div class="badgeRow">
+        <div class="badge">Action-oriented AI</div>
+        <div class="badge">Tools + Memory + Skills</div>
+        <div class="badge">More than a chatbot</div>
+      </div>
+      <div class="sub">Why I moved from OpenClaw to Hermes to try something new: agentic workflows, tools, memory, skills, and more active automation for everyday digital work.</div>
+    </div>
+    <div class="panel">
+      <h3>What’s inside?</h3>
+      <div class="li">• Why I moved from OpenClaw to Hermes</div>
+      <div class="li">• AI agents vs traditional chatbots</div>
+      <div class="li">• Practical use cases for real work</div>
+      <div class="li">• Why Hermes matters for productivity</div>
+    </div>
+    <div class="footer">openclaw/hermes-agent</div>
+  </div>
+</body>
+</html>
