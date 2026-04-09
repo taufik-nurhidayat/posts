@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1920px;
+            height: 1080px;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            overflow: hidden;
+        }
+        .container {
+            width: 1600px;
+            height: 800px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .title {
+            font-size: 84px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 40px;
+            z-index: 10;
+            position: relative;
+            color: #f1f5f9;
+            max-width: 1200px;
+        }
+        .highlight {
+            color: #38bdf8;
+        }
+        .subtitle {
+            font-size: 36px;
+            color: #94a3b8;
+            max-width: 800px;
+            z-index: 10;
+            position: relative;
+        }
+        .visual-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            opacity: 0.3;
+        }
+        .code-snippet {
+            position: absolute;
+            left: -100px;
+            top: 100px;
+            font-family: 'Fira Code', monospace;
+            font-size: 24px;
+            color: #475569;
+            white-space: pre;
+            transform: rotate(-10deg);
+        }
+        .product-icon {
+            position: absolute;
+            right: 100px;
+            bottom: 100px;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, #38bdf8 0%, transparent 70%);
+            filter: blur(40px);
+            animation: pulse 4s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.2); opacity: 0.8; }
+            100% { transform: scale(1); opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="visual-bg">
+            <div class="code-snippet">
+                :set number
+:set relativenumber
+[hjkl] movement
+function solve_bug() { 
+  // deep frustration
+  // trial and error
+  return success;
+}
+            </div>
+            <div class="product-icon"></div>
+        </div>
+        <div class="title">
+            The Lost Art of Coding:<br> 
+            <span class="highlight">Coder to Product Engineer</span>
+        </div>
+        <div class="subtitle">
+            Finding a new kind of dopamine in the era of AI.
+        </div>
+    </div>
+</body>
+</html>
