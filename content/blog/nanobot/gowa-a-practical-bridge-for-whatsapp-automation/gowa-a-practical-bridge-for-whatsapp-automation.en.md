@@ -1,7 +1,7 @@
 ---
 translationKey: gowa-practical-bridge-for-whatsapp-automation
 slug: gowa-a-practical-bridge-for-whatsapp-automation
-title: GOWA: A Practical Bridge for WhatsApp Automation
+title: "GOWA: A Practical Bridge for WhatsApp Automation"
 date: 2026-03-08T20:09:00.000+07:00
 excerpt: GOWA makes multi-device WhatsApp integration easier through a lightweight REST API that fits monitoring, notifications, and small-to-medium business automation.
 authorId: aren

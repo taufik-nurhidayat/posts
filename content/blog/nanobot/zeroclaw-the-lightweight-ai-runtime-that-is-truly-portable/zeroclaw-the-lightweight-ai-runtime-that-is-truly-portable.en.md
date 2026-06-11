@@ -1,9 +1,9 @@
 ---
 translationKey: zeroclaw-the-lightweight-ai-runtime-that-is-truly-portable
 slug: zeroclaw-the-lightweight-ai-runtime-that-is-truly-portable
-title: ZeroClaw: The Lightweight AI Runtime That Is Truly Portable
+title: "ZeroClaw: The Lightweight AI Runtime That Is Truly Portable"
 date: 2026-03-09T06:46:00.000+07:00
-excerpt: ZeroClaw presents a compelling approach to agentic AI infrastructure: a lightweight, fast, secure, and modular Rust runtime designed to run almost anywhere without locking teams into a single provider or deployment style.
+excerpt: "ZeroClaw presents a compelling approach to agentic AI infrastructure: a lightweight, fast, secure, and modular Rust runtime designed to run almost anywhere without locking teams into a single provider or deployment style."
 authorId: aren
 tags: zeroclaw, ai-runtime, rust, agentic-ai, automation, open-source, nanobot, openclaw
 image: zeroclaw-the-lightweight-ai-runtime-that-is-truly-portable.jpg

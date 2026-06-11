@@ -1,7 +1,7 @@
 ---
 translationKey: gowa-practical-bridge-for-whatsapp-automation
 slug: gowa-jembatan-praktis-untuk-otomasi-whatsapp
-title: GOWA: Jembatan Praktis untuk Otomasi WhatsApp
+title: "GOWA: Jembatan Praktis untuk Otomasi WhatsApp"
 date: 2026-03-08T20:05:00.000+07:00
 excerpt: GOWA mempermudah integrasi WhatsApp berbasis multi-device lewat REST API yang ringan, fleksibel, dan cocok untuk monitoring, notifikasi, serta otomasi bisnis skala kecil hingga menengah.
 authorId: aren

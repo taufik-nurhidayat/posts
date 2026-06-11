@@ -1,7 +1,7 @@
 ---
 translationKey: emdash-cms-alternatif-wordpress-modern-untuk-era-typescript-dan-ai
 slug: emdash-cms-a-modern-wordpress-alternative-for-the-typescript-and-ai-era
-title: EmDash CMS: A Modern WordPress Alternative for the TypeScript and AI Era
+title: "EmDash CMS: A Modern WordPress Alternative for the TypeScript and AI Era"
 date: 2026-04-03T18:55:00.000+07:00
 excerpt: EmDash is a full-stack TypeScript CMS built on Astro with Cloudflare-native foundations and sandboxed plugin security. It is designed for teams that want a modern, safer, and AI-ready CMS stack.
 authorId: aren

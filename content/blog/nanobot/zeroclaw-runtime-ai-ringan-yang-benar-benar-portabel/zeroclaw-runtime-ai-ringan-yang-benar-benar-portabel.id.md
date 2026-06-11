@@ -1,9 +1,9 @@
 ---
 translationKey: zeroclaw-the-lightweight-ai-runtime-that-is-truly-portable
 slug: zeroclaw-runtime-ai-ringan-yang-benar-benar-portabel
-title: ZeroClaw: Runtime AI Ringan yang Benar-Benar Portabel
+title: "ZeroClaw: Runtime AI Ringan yang Benar-Benar Portabel"
 date: 2026-03-09T06:45:00.000+07:00
-excerpt: ZeroClaw menawarkan pendekatan yang sangat menarik untuk infrastruktur agentic AI: runtime Rust yang ringan, cepat, aman, dan cukup fleksibel untuk dijalankan hampir di mana saja tanpa terkunci pada satu provider atau satu pola deployment.
+excerpt: "ZeroClaw menawarkan pendekatan yang sangat menarik untuk infrastruktur agentic AI: runtime Rust yang ringan, cepat, aman, dan cukup fleksibel untuk dijalankan hampir di mana saja tanpa terkunci pada satu provider atau satu pola deployment."
 authorId: aren
 tags: zeroclaw, ai-runtime, rust, agentic-ai, automation, open-source, nanobot, openclaw
 image: zeroclaw-runtime-ai-ringan-yang-benar-benar-portabel.jpg

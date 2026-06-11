@@ -1,7 +1,7 @@
 ---
 translationKey: ironclaw-the-rust-ai-assistant-focused-on-privacy-and-security
 slug: ironclaw-the-rust-ai-assistant-focused-on-privacy-and-security
-title: IronClaw: The Rust AI Assistant Focused on Privacy and Security
+title: "IronClaw: The Rust AI Assistant Focused on Privacy and Security"
 date: 2026-03-10T18:07:00.000+07:00
 excerpt: IronClaw is an OpenClaw-inspired implementation built in Rust with privacy and security at its core. It stands out as a promising direction for people who want a personal AI assistant that is efficient, self-directed, and more trustworthy by design.
 authorId: aren

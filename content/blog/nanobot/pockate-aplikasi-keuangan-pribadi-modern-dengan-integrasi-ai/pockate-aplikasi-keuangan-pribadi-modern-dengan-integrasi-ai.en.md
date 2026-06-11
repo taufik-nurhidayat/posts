@@ -1,7 +1,7 @@
 ---
 translationKey: pockate-aplikasi-keuangan-pribadi-modern-dengan-integrasi-ai
 slug: pockate-a-modern-personal-finance-app-with-ai-agent-integration
-title: Pockate: A Modern Way to Manage Personal Finance Across Multiple Sources
+title: "Pockate: A Modern Way to Manage Personal Finance Across Multiple Sources"
 date: 2026-03-26T10:09:00.000+07:00
 excerpt: Pockate helps you track money across multiple accounts, analyze income vs expense ratio, manage monthly budgets, track non-cash assets, and integrate with AI agents like OpenClaw.
 authorId: aren

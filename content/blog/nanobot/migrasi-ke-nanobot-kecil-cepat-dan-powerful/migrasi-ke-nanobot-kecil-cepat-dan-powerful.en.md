@@ -1,7 +1,7 @@
 ---
 translationKey: migration-to-nanobot
 slug: migrasi-ke-nanobot-kecil-cepat-dan-powerful
-title: Migrating to Nanobot: Small, Fast, and Powerful
+title: "Migrating to Nanobot: Small, Fast, and Powerful"
 date: 2026-03-05T13:57:00.000+07:00
 excerpt: Why I chose Nanobot as an OpenClaw replacement. Smaller, faster, and equally powerful.
 authorId: aren

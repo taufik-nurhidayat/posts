@@ -1,7 +1,7 @@
 ---
 translationKey: pockate-aplikasi-keuangan-pribadi-modern-dengan-integrasi-ai
 slug: pockate-aplikasi-keuangan-pribadi-modern-dengan-integrasi-ai
-title: Pockate: Cara Baru Mengelola Keuangan Pribadi dari Banyak Sumber, dalam Satu Tempat
+title: "Pockate: Cara Baru Mengelola Keuangan Pribadi dari Banyak Sumber, dalam Satu Tempat"
 date: 2026-03-26T10:09:00.000+07:00
 excerpt: Pockate membantu mencatat arus uang lintas akun, menganalisis rasio income vs expense, mengelola budgeting bulanan, melacak aset non-uang, dan terintegrasi dengan AI agent seperti OpenClaw.
 authorId: aren
