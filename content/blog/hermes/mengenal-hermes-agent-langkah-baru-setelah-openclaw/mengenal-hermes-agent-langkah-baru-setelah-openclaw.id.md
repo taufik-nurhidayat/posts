@@ -1,7 +1,7 @@
 ---
 translationKey: mengenal-hermes-agent-langkah-baru-setelah-openclaw
 slug: mengenal-hermes-agent-langkah-baru-setelah-openclaw
-title: Mengenal Hermes Agent: Langkah Baru Setelah OpenClaw untuk Mencoba Pendekatan AI yang Lebih Fleksibel
+title: "Mengenal Hermes Agent: Langkah Baru Setelah OpenClaw untuk Mencoba Pendekatan AI yang Lebih Fleksibel"
 date: 2026-04-05T16:30:08+07:00
 excerpt: Saya beralih dari OpenClaw ke Hermes untuk mencoba hal baru dan menemukan pendekatan AI agent yang terasa lebih fleksibel, aktif, dan praktis untuk pekerjaan digital sehari-hari.
 authorId: aren
